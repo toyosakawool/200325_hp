@@ -1,0 +1,433 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+body{
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #000;
+	background: #fff;
+}
+
+a{
+	color: #0066ff;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+
+/* ヘッダー
+------------------------------------------------------------*/
+#mainnav a{
+	color: black;
+	font-family: "Josefin Sans", 'Noto Sans JP',serif;
+}
+
+
+/* フッター
+------------------------------------------------------------*/
+#footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* 共通
+------------------------------------------------------------*/
+h1, h2{
+	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+  clear: both;
+}
+
+section h2{
+	width: 60%;
+	margin: 70px auto;
+	font-size: 22px;
+	font-weight:normal;
+	text-align: center;
+}
+
+section h2 span {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #000;
+}
+
+.inner{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#sec03 .inner, #sec04 .inner{
+	border-bottom: 1px solid #a0a0a0;
+}
+
+/*ヘッダー
+-------------------------------------------------------------*/
+#wrapper{
+	width: 100%;
+}
+
+#content{
+	width: 100%;
+}
+
+#sidebar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: rgba(255,255,255,1);
+	z-index:10;
+	box-shadow:1px 3.5px 5px rgba(102,68,0,0.3);
+}
+
+a#menu{
+	display:none;
+}
+
+.toTop{
+	float:left;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.panel{
+	display:block !important;
+}
+
+.panel ul{
+	float:right;
+}
+
+.panel li{
+	float:left;
+	margin:20px;
+}
+
+.panel a{
+	color:white;
+}
+
+#mainnav li{
+	font-size: 14px;
+	padding: 10px 0;
+}
+
+.trash{
+	height:86px;
+}
+
+/*TOP
+-------------------------------------------------------------*/
+.top-wrapper{
+	background: linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url(../images/photo01.jpg);
+	background-position:center;
+	background-size: cover;
+	width:100%;
+	height: 300px;
+}
+
+.top-wrapper p{
+	color:white;
+	opacity: 0.7;
+	text-align: center;
+	line-height:300px;
+}
+
+/* SEC02 体験メニュー
+-----------------------------------------------------------*/
+.subtitle{
+	text-align: center;
+	margin-bottom:50px;
+}
+
+.contents-wrapper{
+	text-align: center;
+	margin:0 auto;
+}
+
+/* tablle
+---------------------------*/
+caption{
+	text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+	margin-bottom:50px;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+  /*cursor: pointer;*/
+}
+
+/*table .content:hover{
+  background-color: #d4f0fd;
+}*/
+
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+/*menu
+-------------------------*/
+.menu-title{
+	margin-bottom:30px;
+}
+
+.menu{
+	margin: 0 auto;
+	text-align: center;
+	display:inline-block;
+	width:80%;
+	height:500px;
+}
+
+.menu-content{
+	background-color: rgba(255, 255, 255, 0.7);
+	width:50%;
+	height:100%;
+	position: relative;
+	float:right;
+}
+
+.menu-content p{
+	position:absolute;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.thread-image{
+	background-image:url(../images/image14.jpg);
+	background-repeat:no-repeat;
+}
+
+.felt-image{
+	background-image:url(../images/image10.jpg);
+	background-repeat: no-repeat;
+}
+
+
+/* SEC05 COMPANY
+------------------------------------------------------------*/
+#sec05 p{
+	margin-bottom: 5px;
+}
+
+.col2 li{
+	display: inline-block;
+	width: 100%;
+  margin: 20px 0;
+}
+
+.fb-page{
+	height:100%;
+}
+
+#map{
+	position: relative;
+	padding-bottom: 75%;
+	height: 50%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+#map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	border: 0;
+}
+
+.btn{
+	margin-left: 10px;
+}
+
+
+
+/* RESPONSIVE 設定
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 800px){
+	body{
+		font-size:14px;
+	}
+
+/*変更点*/
+
+	#sec01{
+		text-align: center;
+	}
+
+	/*TOP*/
+	.top-wrapper img{
+		height:100vh;
+		width:100vw;
+	}
+
+	.top-wrapper p{
+		top:20%;
+		left:15%;
+		/*transform:translate(-50%,-50%);*/
+		padding:0;
+		font-size:2em;
+	}
+
+
+	/*体験メニュー
+	------------------------------*/
+
+	/*tablle
+	-----------------*/
+	table td.icon{
+	  background-size: 35px;
+	  background-position: left 5px center;
+	  background-repeat: no-repeat;
+	  padding-left: 30px;
+	}
+
+	table td.icon.thread{
+	  background-image: url(../images/startImage2.png)
+	}
+
+	table td.icon.felt{
+	  background-image: url(../images/startImage2.png)
+	}
+
+	table td.icon.bag{
+	  background-image: url(../images/startImage2.png)
+	}
+
+	/*menu
+	------------------*/
+	.menu-content p{
+		text-align: left;
+	}
+
+}
+
+
+@media only screen and (min-width: 641px){
+	.col2 li{
+		width: 60%;
+		vertical-align: top;
+	}
+	.col2 li:first-child{
+		width: 35%;
+		padding-right: 4%;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.innerS{
+		width: 94%;
+		padding-bottom: 30px;
+	}
+	#gallery li{
+		float: none;
+		width: 100%;
+	}
+	.article img{
+		float: none;
+		display: block;
+		margin: 0 auto 20px;
+	}
+	#map iframe{
+		width: 96% !important;
+		left: 2%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	/*ヘッダー
+	------------------------------*/
+	.toTop{
+		margin-top:7px;
+		margin-left:25px;
+		margin-bottom:7px;
+	}
+
+	.panel li{
+		margin:5px;
+	}
+
+	.trash{
+		height:56px;
+	}
+
+	/*トップ
+	------------------------------*/
+	.top-wrapper{
+		font-size:30px;
+	}
+
+
+	/*体験メニュー
+	------------------------------*/
+
+	/*menu
+	----------------------*/
+
+
+	.menu-content{
+		height:50%;
+		width:100%;
+		margin-top:300px;
+		text-align: center;
+	}
+
+	.menu-content p{
+		top:40%;
+	}
+
+	.thread-image{
+		background-position: bottom;
+	}
+
+	/*マップ
+	-------------------------------*/
+	#map iframe{
+		width: 96% !important;
+		left: 2%;
+	}
+
+}
